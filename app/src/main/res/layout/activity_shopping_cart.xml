@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shopping_Cart">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="139dp"
+        android:layout_height="114dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/shoppingCartImage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:clickable="true"
+        android:contentDescription="menu_icon"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324"
+        app:srcCompat="@drawable/menu_bar" />
+
+    <ImageView
+        android:id="@+id/shoppingCartImage"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282"
+        app:srcCompat="@drawable/addshoppingcart" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="24dp"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- User Details -->
+        <EditText
+            android:id="@+id/nameInput"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_person"
+            android:drawablePadding="12dp"
+            android:hint="Enter your name" />
+
+        <EditText
+            android:id="@+id/phoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_phone"
+            android:drawablePadding="12dp"
+            android:hint="Enter your phone number"
+            android:inputType="phone" />
+
+        <!-- Course Selection -->
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_email"
+            android:drawablePadding="12dp"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Select Courses:" />
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Six Month Courses" />
+
+        <CheckBox
+            android:id="@+id/course1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="First Aid - R1500" />
+
+        <CheckBox
+            android:id="@+id/course2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Sewing - R1500" />
+
+        <CheckBox
+            android:id="@+id/course3"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="LandScaping - R1500" />
+
+        <CheckBox
+            android:id="@+id/course4"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Life Skills - R1500" />
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Six Week Courses" />
+
+        <CheckBox
+            android:id="@+id/course5"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Child Minding - R750" />
+
+        <CheckBox
+            android:id="@+id/course6"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Cooking - R750" />
+
+        <CheckBox
+            android:id="@+id/course7"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Garden Maintenance - R750" />
+
+
+        <!-- Total Fee Display -->
+
+        <Button
+            android:id="@+id/calculateBtn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_button"
+            android:text="Calculate Total"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:id="@+id/totalFeeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Total: R0.00"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_button"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

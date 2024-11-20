@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">EmpoweringTheNation</string>
+    <string name="title">Empowering The Nation</string>
+    <string name="company_description">Empowering the nation is a company that aims to provide skills training to domestic workers and gardeners. giving them more opportunities to be more marketable and enabling them to earn higher wages or start their own businesses. </string>
+    <string name="six_month">Six Month Courses</string>
+    <string name="six_month_price">R1500</string>
+    <string name="course_list_1">.First Aid\n.Sewing\n.Landscaping\n.Life Skills</string>
+    <string name="six_week">Six Week Courses</string>
+    <string name="six_week_price">R750</string>
+    <string name="course_list_2">.First Aid\n.Sewing\n.Landscaping\n.Life Skills</string>
+    <string name="button">View Details</string>
+    <string name="button2">View details</string>
+
+    //six month course strings//
+
+    <string name="fisrt_aid_description">•Wounds and bleeding\n•Burns and fractures\n•Emergency scene management
+        \n•Cardio-Pulmonary Resuscitation (CPR)\n•Respiratory distress e.g., Choking, blocked airway</string>
+    <string name="Sewing_description">•Types of stitches\n•Threading a sewing machine\n•Sewing buttons, zips, hems and seams\n•Alterations
+        \n•Designing and sewing new garments</string>
+    <string name="LandScaping_description">•Indigenous and exotic plants and trees
+        \n•Fixed structures (fountains, statues, benches, tables, built-in braai)
+        \n•Balancing of plants and trees in a garden
+        \n•Aesthetics of plant shapes and colours </string>
+    <string name="Life_Skills_description">•Opening a bank account\n•Basic labour law (know your rights)
+        \n•Basic reading and writing literacy\n•Basic numeric literacy</string>
+    //
+
+    //six week course strings
+
+    <string name="Child_minding_description">•birth to six-month old baby needs
+        \n•seven-month to one year old needs
+        \n•Toddler needs
+        \n•Educational toy</string>
+    <string name="Garden_Maintenance">
+        •Water restrictions and the watering requirements of indigenous and exotic plants
+        \n•Pruning and propagation of plants
+        \n•Planting techniques for different plant types
+    </string>
+    <string name="Cooking_description">
+        •Nutritional requirements for a healthy body
+        \n•Types of protein, carbohydrates and vegetables • Planning meals
+        \n•Preparation and cooking of meals
+    </string>
+    //
+
+    <string name="six_month_course">Six month Course</string>
+    <string name="fee">R1500</string>
+    <string name="price">Fees</string>
+    <string name="sixWeekFee">R750</string>
+    <string name="view_details">View Details</string>
+    <string name="back">Home</string>
+    <string name="backBtn">Back</string>
+    <string name="six_week_course">six week course</string>
+    <string name="select_course">Select course</string>
+    <string name="content">Content:</string>
+    <string name="firstaid">FirstAid\nR1500</string>
+    <string name="child_minding">Child Minding\nR750</string>
+    <string name="cooking">Cooking\nR750</string>
+    <string name="garden_maintenance">Garden maintenance\nR750</string>
+    <string name="landscaping">LandScaping\nR1500</string>
+    <string name="life_skills">Life Skills\nR1500</string>
+    <string name="sewing">Sewing\nR1500</string>
+    <string name="contact_info">•EmpoweringTN@gmail.com\n• +27 112 556 8890\n• +27 112 660 5110</string>
+    <string name="contact_information">Contact_Information</string>
+    <string name="adress">12 gold st, Johannesburg\n423 annan st, johannesburg\n7854 bree st, johannesburg</string>
+    <string name="owner">The SME is an initiative by Precious Radebe to provide skills training for domestic workers
+and gardeners.</string>
+    <string name="discounttext">Customers (employers or employees) can select from a range of courses available. They can
+select more than one course. The more courses the customers select the more discount they
+receive. </string>
+    <string name="discount_price">• One course – no discount\n• Two courses – 5% discount\n• Three courses – 10% discount\n• More than three courses – 15% discount</string>
+
+
+</resources>
