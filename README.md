@@ -12,6 +12,3 @@ GROUP MEMBERS:
 4.Sifiso Khausela
 
 5.Xebo Joy Tlou
- 
- 
- added a group member
