@@ -50,9 +50,10 @@ Course details:
 
 Android app
 
-![Six_weeks 1](https://github.com/user-attachments/assets/604c3f49-e8f6-41b1-8105-9bda8c27cb1c)
+![Six_week_course 1](https://github.com/user-attachments/assets/6b4fea95-c8c6-4a8f-b86b-9e5fc1cacb30)
 
-![Six_months 1](https://github.com/user-attachments/assets/a2b202ca-61ec-4f0b-9eaa-c36bd15f1632)
+![six_month_course 1](https://github.com/user-attachments/assets/fb2ccea2-44a3-45c6-a780-745ae15a29c2)
+
 
 About us:
 
